@@ -1,0 +1,511 @@
+MayaWindow:
+  - name: PXO_RIGGING_KIT
+    index: 200
+    type: menu
+    icon: ''
+    parent: rggg
+    uid: pxo_rigging_kit
+
+  ## script browser
+  - name: add pxo rigging kit python path --DNU IF NOT ON GIT SETUP
+    index: 1
+    type: command
+    icon: ''
+    parent: pxo_rigging_kit
+    command: 'import os, pathlib, site; site.addsitedir(str(pathlib.Path(rf"C:/Users/{os.getlogin()}/gitlab/pxo_rigging_kit")) if pathlib.Path(rf"C:/Users/{os.getlogin()}/gitlab/pxo_rigging_kit").exists() else (_ for _ in ()).throw(ValueError(rf"the path to the rigging kit was not set up correctly!, format is: C:/Users/{os.getlogin()}/gitlab/pxo_rigging_kit")));print("added pxo rigging kit");'
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'DEV TOOLS'
+
+  - name: script browser --DNU IF NOT ON GIT SETUP
+    index: 2
+    type: command
+    icon: ''
+    parent: pxo_rigging_kit
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.window_script_browser()'
+
+
+  ## Deformers menu
+  - name: deformers
+    index: 3
+    type: menu
+    icon: ''
+    parent: pxo_rigging_kit
+    uid: deformers
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'specific ops'
+
+  ## deformers submenu
+
+  - name: Save BSHP setup
+    index: 4
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.window_save_bshp_setup()'
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'blendshape_utils'
+
+  - name: Import BSHP deltas
+    index: 5
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.import_bshp_data()'
+
+  - name: Import BSHP setup
+    index: 6
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.import_bshp_setup()'
+
+  - name: Import BSHP setup pack
+    index: 7
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.import_bshp_setup(True)'
+
+  - name: Import latest BSHP setup pack
+    index: 8
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.import_latest_bshp_setup()'
+
+  - name: Transfer BSHP setup from selected source to target
+    index: 9
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.transfer_bshp_setup()'
+
+  - name: Skin Cluster I/O
+    index: 10
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.window_skin_cluster_setup()'
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'skincluster_operations'
+
+  - name: Prune selected Skin Clusters
+    index: 11
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.prune_selected_skin_clusters()'
+
+  - name: Import selected Skin Clusters
+    index: 12
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.import_skin_cluster_setup()'
+
+  - name: Import all found Skin Clusters
+    index: 13
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.import_latest_skin_cluster_setup()'
+
+  - name: Transfer Skin Cluster
+    index: 14
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.transfer_skinclusters()'
+    parent: deformers
+
+  - name: Tag as Skin Cluster Precision Mode Master.
+    index: 15
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.add_tags_for_skin_cluster_precision_mode_master()'
+    parent: deformers
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'skin_precision_mode_utils'
+
+  - name: Remove Skin Cluster Precision Mode Master Tags.
+    index: 16
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.remove_tags_for_skin_cluster_precision_mode_master()'
+    parent: deformers
+
+  - name: Apply Skin Cluster Precision Mode.
+    index: 17
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.apply_skin_cluster_precision_mode()'
+    parent: deformers
+
+  - name: Revert Skin Cluster Precision Mode.
+    index: 18
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.revert_skin_cluster_precision_mode_behaviour()'
+    parent: deformers
+
+  - name: Remove Skin Cluster Precision Mode.
+    index: 19
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.remove_skin_cluster_precision_mode_system()'
+    parent: deformers
+
+  - name: Save Skin Cluster Precision Mode System.
+    index: 20
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.save_skin_cluster_precision_mode_system()'
+    parent: deformers
+
+  - name: Load Skin Cluster Precision Mode System.
+    index: 21
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.load_skin_cluster_precision_mode_system()'
+    parent: deformers
+
+  - name: Create skin cluster stack proxy meshes from selection
+    index: 22
+    type: command
+    parent: deformers
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_skin_layers_from_selection()'
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'skinstack_utils'
+
+  - name: Create skin cluster stack.
+    index: 23
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_skincluster_stack()'
+    parent: deformers
+
+  - name: Save Skin Cluster stack data.
+    index: 24
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.save_skinlayer_data()'
+    parent: deformers
+
+  - name: Load skincluster stack data.
+    index: 25
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.load_skinlayer_data()'
+    parent: deformers
+
+  ## Mocap menu
+  - name: mocap
+    index: 26
+    type: menu
+    icon: ''
+    parent: pxo_rigging_kit
+    uid: mocap
+
+    ## mocap submenu
+
+  - name: Import target rig and mocap data.-- ONE CLICK SOLUTION--
+    index: 27
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_import_target_rig_and_connect_mocap()'
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'hik_utils (one click solution)'
+
+  - name: Import target rig with HIK description.
+    index: 28
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_import_target_rig()'
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'hik_utils (step by step)'
+
+  - name: Import mocap data with HIK description.--AUTO CONNECT--
+    index: 29
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_import_mocap_data_and_connect()'
+
+  - name: Bake mocap to target rig.
+    index: 30
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_bake_mocap_to_target_rig()'
+
+  - name: Add HIK description to selected.--TARGET RIG--
+    index: 31
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_add_hik_rig_description_to_selected()'
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'hik_utils (For manual imported assets)'
+
+  - name: Add HIK description to selected.--MOCAP RIG--
+    index: 32
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_add_hik_rig_description_to_selected("source")'
+
+  - name: Set target rig T-Pose. -- ARMS --.
+    index: 33
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_set_rig_tpose()'
+
+  - name: Set target rig T-Pose -- LEGS --.
+    index: 34
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_set_rig_tpose(limb_type="leg")'
+
+  - name: Save HIK description json pack.
+    index: 35
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_save_hik_description()'
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'hik_utils (workflow tools)'
+
+  - name: Save HIK Tpose and IK/FK match data json.
+    index: 36
+    type: command
+    parent: mocap
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.hik_save_tpose_and_ik_fk_match_data()'
+
+  ## mesh utils
+  - name: Compare selected source with target mesh.
+    index: 37
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.compare_meshes()'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'mesh_utils'
+
+  - name: Legacy mdl hierarchy template creation.
+    index: 38
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_mdl_asset_hierarchy_template(False)'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'model_utils'
+
+  - name: Mdl hierarchy template creation.
+    index: 39
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_mdl_asset_hierarchy_template()'
+    parent: pxo_rigging_kit
+
+  - name: Create asset assembly node.
+    index: 40
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_asset_assembly_node()'
+    parent: pxo_rigging_kit
+
+  - name: Guides Template Manager.
+    index: 41
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.show_guides_template_manager()'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'guide_utils'
+
+  - name: Guides Transfer.
+    index: 42
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.show_guides_transfer()'
+    parent: pxo_rigging_kit
+
+  - name: Create rig container hierarchy.
+    index: 43
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_rig_container_hierarchy()'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'container utils'
+
+  - name: Close/Open rig root container.
+    index: 44
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.close_open_rig_container_hierarchy()'
+    parent: pxo_rigging_kit
+
+  - name: Add nodes to rig container.
+    index: 45
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.add_nodes_to_selected_rig_container()'
+    parent: pxo_rigging_kit
+
+  - name: Publish nodes in rig container.
+    index: 46
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.publish_selected_nodes_in_rig_container()'
+    parent: pxo_rigging_kit
+
+  - name: Create LOD sets.
+    index: 47
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_lod_sets()'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'lod utils'
+
+  - name: Kill LOD sets.
+    index: 48
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.kill_lod_sets()'
+    parent: pxo_rigging_kit
+
+  - name: Import LOD sets.
+    index: 49
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.import_lod_sets()'
+    parent: pxo_rigging_kit
+
+  - name: Export LOD sets.
+    index: 50
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.export_lod_sets()'
+    parent: pxo_rigging_kit
+
+  ## LOD testing menu
+  - name: LOD Tests.
+    index: 51
+    type: menu
+    icon: ''
+    parent: pxo_rigging_kit
+    uid: lod_tests
+
+  ## lod tests submenu
+  - name: Test rig LOD extraction.
+    index: 52
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.test_LOD_extraction()'
+    parent: lod_tests
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'LOD tests'
+
+  - name: Test rig LOD extraction (Import LODs into new scene).
+    index: 53
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.test_LOD_extraction(False, True)'
+    parent: lod_tests
+
+  - name: Test rig LOD extraction (Reference LODs into current scene).
+    index: 54
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.test_LOD_extraction(True)'
+    parent: lod_tests
+
+  - name: Show rig meta data from scene.
+    index: 55
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.show_rig_meta_data_from_scene()'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'metadata utils'
+
+  - name: Dynamic simple rig builder.
+    index: 56
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_simple_rigs()'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'simple rig utils'
+
+  - name: Container Dynamic simple rig builder.
+    index: 57
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.create_container_simple_rig()'
+    parent: pxo_rigging_kit
+
+  - name: Open Controller GUI.
+    index: 58
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.window_controller_gui()'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'controller_utils'
+
+  - name: Open Renamer GUI.
+    index: 59
+    type: command
+    icon: ''
+    command: 'from pxo_rigging_kit.maya_utils.menu import main; main.window_renamer_gui()'
+    parent: pxo_rigging_kit
+    dcc_args:
+      separator:
+        location: 'before'
+        label: 'renamer_utils'

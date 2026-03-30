@@ -1,0 +1,4 @@
+global proc  show_rig_meta_data_gui (string $root_nd) {
+    python("from pxo_rigging_kit.maya_utils.menu.main import show_rig_meta_data_gui");
+    string $tmp = ( "\"" + $root_nd + "\"" ); 
+    python(("show_rig_meta_data_gui(" + $tmp + ")")); }

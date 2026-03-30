@@ -1,0 +1,4 @@
+global proc string[] rig_root_container_rmb_cmd () {
+    python("from pxo_rigging_kit.maya_utils.menu.main import rig_root_container_rmb_cmd");
+    return `python("rig_root_container_rmb_cmd()")`;
+}

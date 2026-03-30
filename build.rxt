@@ -1,0 +1,1447 @@
+{
+    "default_patch_lock": "no_lock",
+    "rez_version": "2.18.0-pxo.5",
+    "package_requests": [
+        "click-7",
+        "maya-2022..2026",
+        "maya_math_nodes-1+",
+        "maya_mgear-5.1.3+",
+        "maya_ng_skin_tools-2+",
+        "maya_proxy_node-0+",
+        "maya_pyblish_plugins-2.42.0+",
+        "maya_pymel-1+",
+        "maya_scene_io-0+",
+        "maya_shapes-5.7.8-pxo.1+",
+        "maya_studiolibrary-1+",
+        "maya_utils-3.14.0+",
+        "pixo_config-1+",
+        "pixo_log-1+",
+        "pixo_naming-2+",
+        "pixo_paths-1+",
+        "pixo_pyblish-0.80.0+",
+        "pixo_shotgun-1+",
+        "python-3.6+",
+        "pydantic-2+",
+        "scipy-1+",
+        "setuptools-41+",
+        "six-1+",
+        "rez_builder-2",
+        "setuptools_scm-1.15",
+        "setuptools-41..61"
+    ],
+    "serialize_version": "4.3",
+    "resolved_packages": [
+        {
+            "variables": {
+                "index": null,
+                "version": "windows",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "platform"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "3.11.9",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "python"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "7.1.2-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "click"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "14.38",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "msvc_abi_compat"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "2025.3.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_devkit"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "2025.3.0-pxo.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.6.0-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_math_nodes"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.4.6",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "qt_py"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 3,
+                "version": "5.1.3-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_mgear"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 3,
+                "version": "2.4.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_ng_skin_tools"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 3,
+                "version": "0.18.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "future"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.5.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_pymel"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.12.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "six"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.2.0-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "pyparsing"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.3.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "zipp"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "7.0.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "importlib_metadata"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.3.5-pxo.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "cerberus"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.7",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_env"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.3-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "chainmap"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 7,
+                "version": "6.0.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "pyyaml"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "16.8-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "packaging"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 5,
+                "version": "1.13.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_config"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.11",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_naming"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.26.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_paths"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "41.4.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "setuptools"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "7.4.3.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "arnold_compat"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "attrdictionary"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "maya_mtoa_license"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "5.5.4",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_mtoa"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 5,
+                "version": "0.1.6.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pxo_arnold_operators"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.2.0-pxo.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "cask"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.4.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_context"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 3,
+                "version": "1.28.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "usd_scene_io"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "6.1.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "cachetools"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.42.6",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "maya_proxy_node"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "14.28-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "vc_redist_2019"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.0-pxo.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "sitecustomize"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 4,
+                "version": "308",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "pywin32"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 3,
+                "version": "1.7.0-pxo.5",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "portalocker"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.9.24-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "concurrent_log_handler"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2018.8.24",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "certifi"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.25.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "urllib3"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.17.3-pxo.5",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "sentry_sdk"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "1.18.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_log"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.3.8",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "secret_api"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.22.3-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "tk_core"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.8.2-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "shotgun_api3"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.14.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_shotgun"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "3.26.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "maya_utils"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.17.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "wrapt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "0.33.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_usd"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.18-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "deprecated"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.8.3-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "alembic"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.31.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "maya_scene_io"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pxo_icon"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.3.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_ui"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.17.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "prometheus_client"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.3.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_metrics"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.19.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "dcc_menu_api"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "3.1.1-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "pbr"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.2-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "funcsigs"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "4.0.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "mock"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.7.0-pxo.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "parameterized"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 4,
+                "version": "1.36.4",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "save_load"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.4.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_framerange"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.15.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_orm"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.8.12",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "pyblish_base"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "10.1.23.6-pxo.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "deadline_api"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "3.0.4-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "chardet"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.14.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "fileseq"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "4.0.0-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "pymemcache"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.6.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "farm_environment"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.1.1-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "addict"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.10.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "deadline_submission_api"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.6",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "idna"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.22.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "requests"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "media_element"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.27.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "scene_xray"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.6.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_memcached"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.14.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "scene_xray_io"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_resolutions"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pam_api"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.13.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_ontrack"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.5.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pxo_shot_outline"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.100.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pixo_pyblish"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.12.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "anytree"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "10.4.2.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "deadline"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "6.1.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "tenacity"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "2.31.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "git"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.12.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "beaker"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "3.19.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "simplejson"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.23.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "legacy_pxm_globallibraries"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.3.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "legacy_maya_dependency_tracking"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.7.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "maya_tagging"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "4.1.4",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "ffmpeg"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "stringcase"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 3,
+                "version": "3.28.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "legacy_maya_file_handling"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.6.4",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "legacy_maya_farm_processing"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.13.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "shotgun_utils"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.3.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "legacy_pixo_file_tools"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.11.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "legacy_pixo_shotgun"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.113.4",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "legacy_maya_utils"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.1.10-pxo.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_pyblish"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.6",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "sanitized"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.61.1",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "maya_pyblish_plugins"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 3,
+                "version": "5.12.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_shapes"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.20.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "maya_studiolibrary"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "4.11.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "typing_extensions"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "0.5.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "annotated_types"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 9,
+                "version": "2.5.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "pydantic"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "2.4.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "numpy"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.16.3",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "scipy"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "2.1.3",
+                "repository_type": "filesystem",
+                "location": "C:\\Users\\srv-gitlab-ci\\packages",
+                "name": "vessel"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "0.34.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "wheel"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "20.2.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "pip"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.5.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "rez_builder"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.15.0",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\ext",
+                "name": "setuptools_scm"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.10.2",
+                "repository_type": "filesystem",
+                "location": "\\\\str-px\\o\\app\\int",
+                "name": "pxo_basics"
+            },
+            "key": "filesystem.variant"
+        }
+    ],
+    "num_loaded_packages": 2373,
+    "requested_timestamp": null,
+    "host": "s-gitlab-ci-w-2.pixomondo.com",
+    "user": "srv-gitlab-ci",
+    "package_filter": [
+        {
+            "excludes": [
+                "range(maya_vray_setup)",
+                "range(houdini_htoa_setup==1.1.1)",
+                "range(cffi-1.12.0)",
+                "range(maya_shader_io-0.15.2-53.0)",
+                "range(maya_shader_io==0.21.0)",
+                "range(arnold_compat==7.1.4.0)",
+                "range(maya_bifrost==2.4.0.0)",
+                "range(maya_bifrost==2.4.0.0-pxo.1)",
+                "range(maya_bifrost==2.5.0.0)",
+                "range(maya_bifrost==2.5.0.0-pxo.1)",
+                "range(maya_bifrost==2.5.0.0-pxo.2)",
+                "range(maya_bifrost==2.5.0.0-pxo.3)",
+                "range(maya_bifrost==2.6.0.0)",
+                "range(maya_bifrost==2.14.0)",
+                "range(maya_alembic_workflow)",
+                "range(houdini_scene_io-1)",
+                "range(maya_tk_apps-1.14.0)",
+                "range(maya_tk_apps-1.14.2)",
+                "range(houdini-19.5.805-pxo.3)",
+                "range(houdini-19.5.805-pxo.1)",
+                "range(houdini-19.5.1036)",
+                "range(houdini==20.0.751)",
+                "range(houdini==20.5.487-pxo.1)",
+                "range(houdini-18.5.338)",
+                "range(legacy_maya_file_handling-3.26.1)",
+                "range(legacy_maya_file_handling-3.26.3)",
+                "range(legacy_maya_file_handling-3.26.5)",
+                "range(nuke_preflight-0.32.0)",
+                "range(maya==2022.0.0)",
+                "range(maya==2022.0.0-pxo.1)",
+                "range(maya==2022.0.0-pxo.2)",
+                "range(maya==2022.0.0-pxo.3)",
+                "range(maya==2022.2.0)",
+                "range(maya==2022.2.0-pxo.1)",
+                "range(maya==2022.2.0-pxo.2)",
+                "range(maya==2025.3.0)",
+                "range(cryptography-2.3.0)",
+                "range(3dequalizer==8.0.0.post1)",
+                "range(3dequalizer==8.0.0.post2)",
+                "range(quicktime)",
+                "range(maya_usd==0.23.0)",
+                "range(maya_usd==0.26.0-pxo.3)",
+                "range(maya_usd==0.32.0)",
+                "range(pywin32==228-pxo.2)",
+                "range(pywin32==228-pxo.3)",
+                "range(pywin32-228-pxo.1)",
+                "range(gitlab_ci_scripts==1.42.0)",
+                "range(gitlab_ci_scripts==1.43.0)",
+                "range(houdini_pxo_pdg_scheduler-2.1.11)",
+                "range(houdini_pxo_pdg_scheduler-2.1.12)",
+                "range(asperait-1.10.1)",
+                "range(asperait-1.11.0)",
+                "range(asperait-1.12.0)",
+                "range(secret_api-1.3.0)",
+                "range(maya_playblast-1.6.4)",
+                "range(pixo_comms-1.1.0)",
+                "range(maya_yvr_scripts-0.3.2+)",
+                "range(legacy_remote_render-4.3.17-pxo.1)",
+                "range(quality_checks-2.0.0)",
+                "range(quality_checks-2.0.1)",
+                "range(quality_checks-1.10.0)",
+                "range(requests-2.10.0-pxo.2)",
+                "range(requests==2.10.0)",
+                "range(roxy-5.2.0)",
+                "range(roxy-5.11.0)",
+                "range(maya_scripts-1.8+)",
+                "range(houdini_pixo_cache-1.7.1-pxobeta130)",
+                "range(houdini_pixo_cache-1.5.9)",
+                "range(elements_browser-2.4.0)",
+                "range(maya_bifrost_libraries-0.3.5)",
+                "range(deadline_set_priority-1.1.5-test)",
+                "range(deadline_set_priority-1.1.5-test2)",
+                "range(deadline_set_priority-999.0.0.dev)",
+                "glob(*.pxodev*)",
+                "glob(*-linux.*)",
+                "glob(*+pxobeta.*)",
+                "glob(*-pxobeta.*)",
+                "glob(*.pxobeta.*)",
+                "regex(.*\\.post[0-9]+)",
+                "range(animbot-t_3)",
+                "range(animbot-t_4)",
+                "range(maya_uitools-2017.07.32+)",
+                "range(maya_tool_panel-0.3.7+)",
+                "range(maya_cvwrap-2018.7.23+)",
+                "range(maya_nmaketx-1.0.2+)",
+                "range(maya_argile)",
+                "range(maya_pymel==1.2.0)",
+                "range(houdini_htoa-6.1.3.0-beta)",
+                "range(houdini_htoa-6.1.3.0-beta44)",
+                "range(houdini_htoa==6.3.2.1)",
+                "range(houdini_htoa==6.1.4.0)",
+                "range(usd==22.11)",
+                "range(pycharm-2018.3.7)",
+                "range(pxo_plugin_validator==1.8.1)",
+                "range(shotgun_events_plugins-4.1.0)",
+                "range(shotgun_events_plugins-4.6)",
+                "range(pyyaml==3.11)",
+                "range(houdini_solaris_tools-3.1.19)",
+                "range(deprecated==1.2.18)",
+                "range(portalocker-1.7.0-pxo1)",
+                "range(legacy_maya_pixoshelf-2.1.1+)",
+                "range(maya_scene_io-0.7.2)",
+                "range(maya_scene_io==0.36.0)",
+                "range(maya_scene_io-0.44.3)",
+                "range(maya_scene_io-0.44.7)",
+                "range(change_context==1.0.0)",
+                "range(maya_shelves-0.4.1+)",
+                "range(maya_previs_io==0.2.15)",
+                "range(maya_various_scripts-1.2.5+)",
+                "range(maya_camera_tool-0.2.2+)",
+                "range(tk_core==0.21.6)",
+                "range(texture_pyblish-0.33.4)",
+                "range(maya_mtoa==5.3.3.1)",
+                "range(nuke-13.1.1.genio.alpha3)",
+                "range(maya_atools)",
+                "range(automata-3.2.0)",
+                "range(automata-3.2.1)",
+                "range(automata-3.4.6)",
+                "range(automata-3.5.4)",
+                "range(automata==3.6.0)",
+                "range(rabbitmq_deployment-3.7.8)",
+                "range(nuke_mm_colortarget-2.0.0-pxo.4)",
+                "range(vc_redist_2008==9.0-pxo.1)",
+                "range(pxo_arnold_operators-0.1.2.0)",
+                "range(pixo_pyblish-0.40.0)",
+                "range(pixo_pyblish-0.59.0)",
+                "range(pixo_pyblish-0.94)",
+                "range(toolsets-0.39.0)",
+                "range(toolsets-0.39.1)",
+                "range(toolsets-0.39.2)",
+                "range(houdini_toolset-0.2.2+)",
+                "range(maya_pyblish-2.2.0)",
+                "range(git-2.15.0-pxo.1)",
+                "range(usd_scene_io==0.10.0)",
+                "range(usd_scene_io==0.14.1-pxobeta83.0)",
+                "range(usd_scene_io==1.14.2)",
+                "range(rush-1.28.0)",
+                "range(rush==1.53.0)",
+                "range(legacy_pxm_globallibraries-1.4.11)",
+                "range(legacy_pxm_globallibraries-1.11.0)",
+                "range(legacy_pxm_globallibraries-1.11.1)",
+                "range(legacy_pxm_globallibraries-1.11.2)",
+                "range(legacy_pxm_globallibraries-1.11.3)",
+                "range(legacy_pxm_globallibraries-1.13.0)",
+                "range(legacy_pxm_globallibraries-1.13.1)",
+                "range(maya_pyblish_plugins-0.127.11)",
+                "range(maya_pyblish_plugins-127.2)",
+                "range(maya_pyblish_plugins==2.6.0)",
+                "range(maya_pyblish_plugins==1.43.0)",
+                "range(maya_pyblish_plugins-1.45.0)",
+                "range(maya_pyblish_plugins-1.45.1)",
+                "range(maya_pyblish_plugins-1.45.2)",
+                "range(maya_pyblish_plugins-1.45.3)",
+                "range(maya_soup)",
+                "range(universal_publisher==0.3.0)",
+                "range(rv_package_overrides-2021.1.0-pxo.1)",
+                "range(pixo_config-1.4.0)",
+                "range(pixo_config-1.4.1)",
+                "range(roxy_templates-1.23)",
+                "range(maya_utils-2.5.0)",
+                "range(maya_aov_manager)",
+                "range(shotgun_email_bridge-1.2.0)",
+                "range(pixo_ontrack-1.5.0)",
+                "range(pixo_ontrack-1.5.1)",
+                "range(pixo_ontrack-1.6.0-b1)",
+                "range(nuke_merge_median-1.1.0-pxo.5)",
+                "range(nose_maya)",
+                "range(maya_groom_pyblish-0.8.5.projectoverride)",
+                "range(maya_jiggle_transform-0.4.2+)",
+                "range(maya_preflight-1.15.2)",
+                "range(bcrypt-3.2.0)",
+                "range(maya_shader_pyblish==1.3.1)",
+                "range(maya_shader_pyblish==1.27.0)",
+                "range(maya_shader_pyblish==1.27.1)",
+                "range(maya_shader_pyblish==1.27.2)",
+                "range(pynacl-1.3.0)",
+                "range(pyinstaller-3.4.0)",
+                "range(todo_sticky_note-1.6.2+)",
+                "range(maya_fra_tools)",
+                "range(maya_simplex)",
+                "range(pixo_log-1.4.5)",
+                "range(pixo_log-1.5.0)",
+                "range(pixo_shotgun-1.10.5)"
+            ],
+            "includes": [
+                "range(backports_weakref-1.0.post1)",
+                "range(python_dateutil-2.9.0.post0)",
+                "range(pathlib2-2.3.7.post1-pxo.1)",
+                "range(pxo_rigging_kit==3.0.0)"
+            ]
+        }
+    ],
+    "arch": "AMD64",
+    "solve_time": 37.62100005149841,
+    "building": true,
+    "implicit_packages": [
+        "~platform==windows",
+        "~arch==AMD64",
+        "~os==windows-10.0",
+        "pxo_basics-1"
+    ],
+    "parent_suite_path": null,
+    "suite_context_name": null,
+    "created": 1771239560,
+    "graph": "{'nodes': [((('fillcolor', '#AAFFAA'), ('fontsize', 10), ('style', 'filled')), [('_99', 'fileseq-1.14.0[]'), ('_98', 'chardet-3.0.4-pxo.1[1]'), ('_97', 'deadline_api-10.1.23.6-pxo.3[]'), ('_96', 'pyblish_base-1.8.12[1]'), ('_95', 'pixo_orm-0.15.0[0]'), ('_94', 'pixo_framerange-0.4.3[]'), ('_93', 'save_load-1.36.4[4]'), ('_92', 'parameterized-0.7.0-pxo.2[]'), ('_91', 'mock-4.0.2[]'), ('_90', 'funcsigs-1.0.2-pxo.1[]'), ('_62', 'usd_scene_io-1.28.3[3]'), ('_63', 'cachetools-6.1.0[]'), ('_60', 'cask-1.2.0-pxo.3[0]'), ('_61', 'pixo_context-1.4.3[0]'), ('_66', 'sitecustomize-1.0.0-pxo.3[]'), ('_67', 'pywin32-308[4]'), ('_64', 'maya_proxy_node-0.42.6[]'), ('_65', 'vc_redist_2019-14.28-pxo.1[0]'), ('_68', 'portalocker-1.7.0-pxo.5[3]'), ('_69', 'concurrent_log_handler-0.9.24-pxo.1[]'), ('_126', 'legacy_maya_file_handling-3.28.3[3]'), ('_127', 'legacy_maya_farm_processing-2.6.4[]'), ('_124', 'ffmpeg-4.1.4[1]'), ('_125', 'stringcase-1.2.0[]'), ('_122', 'legacy_maya_dependency_tracking-1.3.0[1]'), ('_123', 'maya_tagging-0.7.0[]'), ('_120', 'simplejson-3.19.3[1]'), ('_121', 'legacy_pxm_globallibraries-1.23.0[]'), ('_128', 'shotgun_utils-0.13.0[]'), ('_129', 'legacy_pixo_file_tools-0.3.1[]'), ('_59', 'pxo_arnold_operators-0.1.6.0[5]'), ('_58', 'maya_mtoa-5.5.4[1]'), ('_53', 'pixo_paths-1.26.0[]'), ('_52', 'pixo_naming-2.11[]'), ('_51', 'pixo_config-1.13.0[5]'), ('_50', 'packaging-16.8-pxo.1[]'), ('_57', 'maya_mtoa_license-1.2.1[]'), ('_56', 'attrdictionary-1.0.0[]'), ('_55', 'arnold_compat-7.4.3.0[]'), ('_54', 'setuptools-41.4.0[1]'), ('_88', 'dcc_menu_api-1.19.0[1]'), ('_89', 'pbr-3.1.1-pxo.1[1]'), ('_84', 'pxo_icon-1.1.0[]'), ('_85', 'pixo_ui-1.3.1[1]'), ('_86', 'prometheus_client-0.17.1[]'), ('_87', 'pixo_metrics-0.3.1[]'), ('_80', 'maya_usd-0.33.0[2]'), ('_81', 'deprecated-1.2.18-pxo.1[]'), ('_82', 'alembic-1.8.3-pxo.1[1]'), ('_83', 'maya_scene_io-1.31.0[]'), ('_131', 'legacy_maya_utils-2.113.4[]'), ('_130', 'legacy_pixo_shotgun-1.11.2[1]'), ('_133', 'sanitized-1.0.6[]'), ('_132', 'maya_pyblish-2.1.10-pxo.1[]'), ('_135', 'maya_shapes-5.12.0[3]'), ('_134', 'maya_pyblish_plugins-2.61.1[]'), ('_137', 'typing_extensions-4.11.0[]'), ('_136', 'maya_studiolibrary-2.20.2[]'), ('_139', 'pydantic-2.5.3[9]'), ('_138', 'annotated_types-0.5.0[1]'), ('_48', 'chainmap-1.0.3-pxo.1[]'), ('_49', 'pyyaml-6.0.2[7]'), ('_40', 'future-0.18.2[3]'), ('_41', 'maya_pymel-1.5.0[1]'), ('_42', 'six-1.12.0[]'), ('_43', 'pyparsing-2.2.0-pxo.1[]'), ('_44', 'zipp-0.3.3[]'), ('_45', 'importlib_metadata-7.0.1[0]'), ('_46', 'cerberus-1.3.5-pxo.2[]'), ('_47', 'pixo_env-1.2.7[]'), ('_144', 'pip-20.2.0[1]'), ('_145', 'rez_builder-2.5.0[]'), ('_146', 'setuptools_scm-1.15.0[]'), ('_147', 'pxo_basics-1.10.2[]'), ('_140', 'numpy-2.4.0[1]'), ('_141', 'scipy-1.16.3[1]'), ('_142', 'vessel-2.1.3[1]'), ('_143', 'wheel-0.34.2[1]'), ('_108', 'pixo_memcached-1.6.1[]'), ('_109', 'scene_xray_io-0.14.0[]'), ('_100', 'pymemcache-4.0.0-pxo.1[]'), ('_101', 'farm_environment-1.6.2[]'), ('_102', 'addict-2.1.1-pxo.1[]'), ('_103', 'deadline_submission_api-1.10.1[1]'), ('_104', 'idna-2.6[]'), ('_105', 'requests-2.22.0[]'), ('_106', 'media_element-1.1.2[]'), ('_107', 'scene_xray-0.27.0[]'), ('_79', 'wrapt-1.17.1[]'), ('_78', 'maya_utils-3.26.1[2]'), ('_75', 'tk_core-0.22.3-pxo.1[]'), ('_74', 'secret_api-1.3.8[1]'), ('_77', 'pixo_shotgun-1.14.0[]'), ('_76', 'shotgun_api3-3.8.2-pxo.1[]'), ('_71', 'urllib3-1.25.3[]'), ('_70', 'certifi-2018.8.24[]'), ('_73', 'pixo_log-1.18.1[2]'), ('_72', 'sentry_sdk-0.17.3-pxo.5[]'), ('_119', 'beaker-1.12.2[1]'), ('_118', 'git-2.31.1[1]'), ('_113', 'pxo_shot_outline-0.5.0[]'), ('_112', 'pixo_ontrack-1.13.1[1]'), ('_111', 'pam_api-1.2.2[]'), ('_110', 'pixo_resolutions-1.1.3[]'), ('_117', 'tenacity-6.1.0[1]'), ('_116', 'deadline-10.4.2.2[1]'), ('_115', 'anytree-2.12.1[]'), ('_114', 'pixo_pyblish-0.100.1[]'), ('_39', 'maya_ng_skin_tools-2.4.0[3]'), ('_38', 'maya_mgear-5.1.3-pxo.1[3]'), ('_31', 'python-3.11.9[1]'), ('_30', 'platform-windows[]'), ('_33', 'msvc_abi_compat-14.38[]'), ('_32', 'click-7.1.2-pxo.1[]'), ('_35', 'maya-2025.3.0-pxo.2[1]'), ('_34', 'maya_devkit-2025.3.0[1]'), ('_37', 'qt_py-1.4.6[]'), ('_36', 'maya_math_nodes-1.6.0-pxo.1[1]')]), ((('fillcolor', '#F6F6F6'), ('fontsize', 10), ('style', 'filled,dashed')), [('_265', 'deadline_api-10.1'), ('_264', 'click-7.1'), ('_267', 'pixo_log-1'), ('_266', 'farm_environment-1.3..2'), ('_261', 'six-1.10.0..1.13'), ('_260', 'pixo_paths-1.15..2'), ('_263', 'addict-2.1'), ('_262', 'python-2..4'), ('_346', 'maya_utils-2.3..4'), ('_347', 'maya_scene_io-0.2..2'), ('_344', 'legacy_pixo_shotgun-1.5..2'), ('_345', 'maya-2018..2026'), ('_269', 'six-1.10.0..2'), ('_268', 'pixo_paths-1.6..2'), ('_340', 'dcc_menu_api-1.14.1..2'), ('_341', 'legacy_maya_dependency_tracking-1'), ('_193', 'pixo_context-1'), ('_192', 'pixo_paths-1'), ('_191', 'pixo_naming-2'), ('_190', 'python-3..3.12'), ('_197', 'maya_mtoa-5.1..6'), ('_196', 'cask-1.1..1.3'), ('_195', 'cachetools-3.1..6.2'), ('_194', '!usd'), ('_199', 'pxo_arnold_operators-0'), ('_198', 'maya_pymel'), ('_298', 'scene_xray_io-0.13.0..1'), ('_299', 'pixo_ontrack-1'), ('_290', 'requests-2.10..2.28'), ('_291', 'sentry_sdk-0.17..1'), ('_292', 'click-6..9'), ('_293', 'pam_api-0.12.1..2'), ('_294', 'pixo_orm-0.13..1'), ('_295', '~pyside2-5'), ('_296', 'qt_py-1..2'), ('_297', 'scene_xray-0.14.0..1'), ('_229', 'deprecated'), ('_228', 'alembic-1.8.3'), ('_221', '~maya_mtoa-5..6'), ('_220', 'pixo_shotgun-1.2..2'), ('_223', 'python-3.8..4'), ('_222', 'pixo_paths-1.18..2'), ('_225', '~maya_mtoa-5.3.1..6'), ('_224', '~arnold_compat-7.2.1..8'), ('_227', 'wrapt-1.10..1.18'), ('_226', 'maya-2025.3'), ('_315', 'pixo_paths-1.13..2'), ('_314', 'deprecated-1'), ('_317', 'simplejson-3.19'), ('_316', 'shotgun_api3-3.2..4'), ('_311', '~python-3'), ('_310', 'usd_scene_io-1.28.0..2'), ('_313', 'deadline-8.0..10.5'), ('_312', 'beaker-1.12'), ('_319', 'tenacity-6.1'), ('_318', 'pyyaml-5.3+'), ('_258', 'mock-2..5'), ('_259', 'parameterized-0.7..0.8'), ('_254', '~photoshop_utils-2'), ('_255', '~photoshop_tk_apps-1'), ('_256', 'maya_utils-2..4'), ('_257', '~maya_tk_apps-1.13.0..2'), ('_250', 'qt_py-1'), ('_251', '~photoshop-2015..2024'), ('_252', '~photoshop_com_api-0'), ('_253', '~photoshop_shelves-0'), ('_348', 'packaging-16.8'), ('_349', 'pixo_ontrack-0.20..2'), ('_342', 'legacy_maya_farm_processing-2.5..3'), ('_343', 'legacy_maya_file_handling-3.20.0..4'), ('_179', 'pixo_config-1.8..2'), ('_178', 'pixo_config-1'), ('_175', 'packaging-16+'), ('_174', 'click-7..9'), ('_177', 'pyyaml-3.5..7'), ('_176', 'pixo_env-1.2..2'), ('_171', 'six-1'), ('_170', 'pyparsing-2.2'), ('_173', 'cerberus-1.3.5..2'), ('_172', 'chainmap-1.0'), ('_210', 'urllib3-1.25'), ('_211', 'sentry_sdk-0.17.3'), ('_212', 'concurrent_log_handler-0.9.19..0.10'), ('_213', 'future-0'), ('_214', 'pixo_config-1.4..2'), ('_215', 'python-3.7..4'), ('_216', 'tk_core-0.20.35..0.23'), ('_217', 'pixo_log-1.17.0..2'), ('_218', 'secret_api-1'), ('_219', 'shotgun_api3-3.3..3.9'), ('_353', 'pyblish_base-1.4..2'), ('_352', 'usd_scene_io-0.2.2..2'), ('_355', 'anytree-2'), ('_354', 'qt_py-1..1.5'), ('_357', 'legacy_maya_utils-2'), ('_356', 'legacy_maya_file_handling-3'), ('_328', 'stringcase-1'), ('_329', 'git-2'), ('_324', 'legacy_maya_dependency_tracking-1..2'), ('_325', 'maya_scene_io-0.8..2'), ('_326', 'maya_tagging-0'), ('_327', 'qt_py-1.0..1.5'), ('_320', 'legacy_pxm_globallibraries-1'), ('_321', 'maya_pymel-1'), ('_322', 'maya_utils-3'), ('_323', 'ffmpeg-4.1'), ('_289', 'cerberus-1.1..2'), ('_288', 'shotgun_api3-3.3..4'), ('_283', 'pixo_config-1.1..2'), ('_282', 'pixo_paths-1.5..2'), ('_281', '~nuke-13..18'), ('_280', 'media_element-1'), ('_287', 'scene_xray-0'), ('_286', 'pixo_orm-0.11..1'), ('_285', 'pixo_memcached-1.3..2'), ('_284', 'pymemcache-3.2..4.1'), ('_358', '~maya_mtoa-4..6'), ('_148', 'platform-windows'), ('_149', 'python-2.7..4'), ('_360', 'maya_pyblish-2'), ('_361', 'maya_scene_io-0.52.0..2'), ('_362', 'maya_tagging-0.6.2..1'), ('_363', 'pixo_naming-2.4..3'), ('_364', 'pixo_pyblish-0.82.0..1'), ('_365', 'sanitized-1'), ('_366', '~save_load-1'), ('_367', 'python-3.9..4'), ('_368', 'typing_extensions-4.6..5'), ('_369', 'annotated_types-0.4..1'), ('_249', 'pixo_shotgun-1'), ('_248', 'dcc_menu_api-1.7..2'), ('_247', 'pbr-1.8..6'), ('_246', 'funcsigs-1.0'), ('_245', 'six-1.10..2'), ('_244', 'pyyaml-3..7'), ('_243', 'pixo_ui-0..2'), ('_242', 'pixo_metrics-0'), ('_241', 'python-3.6..3.12'), ('_240', 'prometheus_client-0'), ('_203', 'sitecustomize-1'), ('_202', 'vc_redist_2019'), ('_201', 'setuptools-34.3..100'), ('_200', 'usd_scene_io-0..2'), ('_207', 'portalocker-1.7'), ('_206', 'python-3.6..4.0'), ('_205', 'pywin32-308'), ('_204', 'python-3.11..4.0'), ('_209', 'python-2.7..3.12'), ('_208', 'certifi'), ('_339', 'alembic-1'), ('_338', 'shotgun_utils-0.6..1'), ('_337', 'requests-2.22'), ('_336', 'legacy_pixo_file_tools-0'), ('_335', 'parameterized-0.7'), ('_334', 'maya-2016.5..2026'), ('_333', 'pyyaml-3.11..7'), ('_332', 'maya_utils-3.18..4'), ('_331', 'legacy_maya_file_handling-2..4'), ('_330', 'farm_environment-1'), ('_157', '~maya_pymel-1.2..1.6'), ('_156', 'qt_py-1.0..2'), ('_155', 'python-3..4'), ('_154', 'maya-2025'), ('_153', '!maya_mgear-3..4.0.11'), ('_152', 'maya_devkit-2025'), ('_151', 'msvc_abi_compat-14..15'), ('_150', '~msvc-14.38'), ('_159', 'python-3'), ('_158', 'python-3.7+'), ('_373', 'vessel-2'), ('_372', 'pip-18.0..25'), ('_371', 'wheel-0.29..0.35'), ('_370', 'numpy-2'), ('_374', 'git-2.14..3'), ('_278', '~maya-2022..2026'), ('_279', '~maya_utils-3.23..4'), ('_272', 'idna-2.5..2.9'), ('_273', 'urllib3-1.21.1..1.26'), ('_270', 'chardet-3.0.2..3.1'), ('_271', 'certifi-2017.4.17..2020'), ('_276', '~houdini-19.5..21'), ('_277', '~houdini_htoa-6.3..7'), ('_274', 'fileseq-1.14'), ('_275', 'pixo_paths-1.16.0..2'), ('_180', 'pixo_env-1'), ('_181', 'python-3.6..4'), ('_182', 'arnold_compat-7.4.3.0'), ('_183', 'maya_mtoa_license-1'), ('_184', 'arnold_compat-7.4'), ('_185', 'maya'), ('_186', 'future'), ('_187', 'python-3.10..3.12'), ('_188', 'attrdictionary'), ('_189', 'cask-1'), ('_359', 'maya_proxy_node-0.13.0..1'), ('_238', 'deprecated-1.2'), ('_239', 'pxo_icon-1'), ('_236', '~shotgun_utils-0.10..1'), ('_237', 'usd_scene_io-1.8.0..2'), ('_234', '~maya_tk_apps-1.5..2'), ('_235', 'pixo_paths-1.23.1..2'), ('_232', 'maya_usd-0'), ('_233', 'maya_utils-3.21..4'), ('_230', 'maya_pymel-1.2..1.6'), ('_231', 'maya_proxy_node-0.42..1'), ('_351', 'stringcase-1.2'), ('_350', 'pixo_ui-0.2..2'), ('_308', 'scene_xray-0.16.0..1'), ('_309', 'save_load-1'), ('_302', 'dcc_menu_api-1'), ('_303', 'pixo_ontrack-1.10..2'), ('_300', 'usd_scene_io-1.17.0+'), ('_301', 'deadline_submission_api-1'), ('_306', 'pxo_shot_outline-0.3..1'), ('_307', 'pyblish_base-1'), ('_304', 'pixo_resolutions-1'), ('_305', 'pixo_framerange-0'), ('_162', 'python-3.8+<3_'), ('_163', 'zipp-0.3'), ('_160', 'future-0.18..1'), ('_161', 'maya-2020..2026'), ('_166', 'future-0.17..1'), ('_167', 'six-1.10..1.13'), ('_164', 'python-3.7..3.12'), ('_165', 'importlib_metadata'), ('_168', 'python-2.7..4.0'), ('_169', 'python-3.11')]), ((('fillcolor', '#FFFFAA'), ('fontsize', 10), ('style', 'filled,dashed')), [('_28', '~os==windows-10.0'), ('_29', 'pxo_basics-1'), ('_26', '~platform==windows'), ('_27', '~arch==AMD64'), ('_24', 'rez_builder-2'), ('_25', 'setuptools_scm-1.15'), ('_22', 'setuptools-41..61'), ('_23', 'six-1+'), ('_20', 'pydantic-2+'), ('_21', 'scipy-1+'), ('_9', 'maya_scene_io-0+'), ('_8', 'maya_pymel-1+'), ('_7', 'maya_pyblish_plugins-2.42.0+'), ('_6', 'maya_proxy_node-0+'), ('_5', 'maya_ng_skin_tools-2+'), ('_4', 'maya_mgear-5.1.3+'), ('_3', 'maya_math_nodes-1+'), ('_2', 'maya-2022..2026'), ('_1', 'click-7'), ('_17', 'pixo_pyblish-0.80.0+'), ('_16', 'pixo_paths-1+'), ('_15', 'pixo_naming-2+'), ('_14', 'pixo_log-1+'), ('_13', 'pixo_config-1+'), ('_12', 'maya_utils-3.14.0+'), ('_11', 'maya_studiolibrary-1+'), ('_10', 'maya_shapes-5.7.8-pxo.1+'), ('_19', 'python-3.6+'), ('_18', 'pixo_shotgun-1+')])], 'edges': [((('arrowsize', '0.5'),), [('_99', '_166'), ('_99', '_262'), ('_98', '_149'), ('_98', '_148'), ('_97', '_166'), ('_97', '_209'), ('_97', '_261'), ('_96', '_149'), ('_96', '_148'), ('_95', '_260'), ('_95', '_187'), ('_95', '_188'), ('_94', '_193'), ('_94', '_249'), ('_94', '_190'), ('_93', '_248'), ('_93', '_178'), ('_93', '_191'), ('_93', '_243'), ('_93', '_155'), ('_93', '_192'), ('_93', '_249'), ('_93', '_250'), ('_93', '_251'), ('_93', '_252'), ('_93', '_253'), ('_93', '_254'), ('_93', '_255'), ('_93', '_148'), ('_93', '_2'), ('_93', '_256'), ('_93', '_257'), ('_93', '_258'), ('_93', '_259'), ('_92', '_168'), ('_91', '_181'), ('_91', '_245'), ('_91', '_246'), ('_91', '_247'), ('_90', '_149'), ('_62', '_189'), ('_62', '_190'), ('_62', '_191'), ('_62', '_192'), ('_62', '_193'), ('_62', '_148'), ('_62', '_194'), ('_63', '_149'), ('_60', '_185'), ('_61', '_186'), ('_61', '_187'), ('_61', '_188'), ('_66', '_181'), ('_67', '_201'), ('_67', '_148'), ('_67', '_202'), ('_67', '_151'), ('_67', '_203'), ('_67', '_169'), ('_64', '_195'), ('_64', '_196'), ('_64', '_2'), ('_64', '_197'), ('_64', '_198'), ('_64', '_178'), ('_64', '_193'), ('_64', '_192'), ('_64', '_155'), ('_64', '_199'), ('_64', '_200'), ('_65', '_148'), ('_68', '_204'), ('_68', '_148'), ('_68', '_205'), ('_69', '_206'), ('_69', '_207'), ('_265', '_97'), ('_264', '_32'), ('_267', '_73'), ('_266', '_101'), ('_261', '_42'), ('_260', '_53'), ('_263', '_102'), ('_262', '_31'), ('_346', '_78'), ('_347', '_83'), ('_344', '_130'), ('_345', '_35'), ('_269', '_42'), ('_268', '_53'), ('_340', '_88'), ('_341', '_122'), ('_193', '_61'), ('_192', '_53'), ('_191', '_52'), ('_190', '_31'), ('_197', '_58'), ('_196', '_60'), ('_195', '_63'), ('_199', '_59'), ('_198', '_41'), ('_298', '_109'), ('_299', '_112'), ('_290', '_105'), ('_291', '_72'), ('_292', '_32'), ('_293', '_111'), ('_294', '_95'), ('_296', '_37'), ('_297', '_107'), ('_126', '_302'), ('_126', '_314'), ('_126', '_323'), ('_126', '_324'), ('_126', '_320'), ('_126', '_2'), ('_126', '_325'), ('_126', '_326'), ('_126', '_322'), ('_126', '_267'), ('_126', '_249'), ('_126', '_169'), ('_126', '_327'), ('_126', '_328'), ('_126', '_148'), ('_126', '_329'), ('_126', '_188'), ('_127', '_301'), ('_127', '_314'), ('_127', '_330'), ('_127', '_331'), ('_127', '_320'), ('_127', '_178'), ('_127', '_315'), ('_127', '_155'), ('_127', '_332'), ('_127', '_333'), ('_127', '_334'), ('_124', '_148'), ('_125', '_149'), ('_122', '_213'), ('_122', '_320'), ('_122', '_154'), ('_122', '_249'), ('_122', '_159'), ('_122', '_321'), ('_123', '_2'), ('_123', '_322'), ('_123', '_164'), ('_120', '_159'), ('_121', '_312'), ('_121', '_313'), ('_121', '_301'), ('_121', '_314'), ('_121', '_166'), ('_121', '_315'), ('_121', '_190'), ('_121', '_218'), ('_121', '_316'), ('_121', '_317'), ('_121', '_318'), ('_121', '_319'), ('_128', '_149'), ('_128', '_166'), ('_128', '_171'), ('_128', '_335'), ('_129', '_263'), ('_129', '_213'), ('_129', '_320'), ('_129', '_149'), ('_129', '_250'), ('_59', '_148'), ('_59', '_184'), ('_58', '_182'), ('_58', '_183'), ('_58', '_22'), ('_58', '_148'), ('_58', '_154'), ('_53', '_166'), ('_53', '_179'), ('_53', '_180'), ('_53', '_149'), ('_53', '_167'), ('_52', '_178'), ('_52', '_176'), ('_52', '_155'), ('_52', '_167'), ('_51', '_172'), ('_51', '_173'), ('_51', '_174'), ('_51', '_166'), ('_51', '_175'), ('_51', '_176'), ('_51', '_164'), ('_51', '_177'), ('_51', '_167'), ('_51', '_148'), ('_50', '_149'), ('_50', '_170'), ('_50', '_171'), ('_56', '_181'), ('_54', '_149'), ('_54', '_148'), ('_29', '_147'), ('_26', '_30'), ('_24', '_145'), ('_25', '_146'), ('_22', '_54'), ('_23', '_42'), ('_20', '_139'), ('_21', '_141'), ('_229', '_81'), ('_228', '_82'), ('_221', '_58'), ('_220', '_77'), ('_223', '_31'), ('_222', '_53'), ('_225', '_58'), ('_224', '_55'), ('_227', '_79'), ('_226', '_35'), ('_315', '_53'), ('_314', '_81'), ('_317', '_120'), ('_316', '_76'), ('_311', '_31'), ('_310', '_62'), ('_313', '_116'), ('_312', '_119'), ('_319', '_117'), ('_318', '_49'), ('_258', '_91'), ('_259', '_92'), ('_256', '_78'), ('_250', '_37'), ('_348', '_50'), ('_349', '_112'), ('_342', '_127'), ('_343', '_126'), ('_179', '_51'), ('_178', '_51'), ('_175', '_50'), ('_174', '_32'), ('_177', '_49'), ('_176', '_47'), ('_171', '_42'), ('_170', '_43'), ('_173', '_46'), ('_172', '_48'), ('_88', '_178'), ('_88', '_242'), ('_88', '_243'), ('_88', '_181'), ('_88', '_244'), ('_88', '_156'), ('_88', '_148'), ('_89', '_149'), ('_89', '_201'), ('_89', '_148'), ('_85', '_238'), ('_85', '_178'), ('_85', '_239'), ('_85', '_159'), ('_85', '_156'), ('_86', '_181'), ('_87', '_178'), ('_87', '_240'), ('_87', '_241'), ('_80', '_224'), ('_80', '_225'), ('_80', '_194'), ('_80', '_148'), ('_80', '_226'), ('_81', '_227'), ('_81', '_149'), ('_82', '_148'), ('_83', '_228'), ('_83', '_189'), ('_83', '_229'), ('_83', '_2'), ('_83', '_230'), ('_83', '_231'), ('_83', '_232'), ('_83', '_233'), ('_83', '_234'), ('_83', '_191'), ('_83', '_235'), ('_83', '_155'), ('_83', '_171'), ('_83', '_236'), ('_83', '_237'), ('_9', '_83'), ('_8', '_41'), ('_7', '_134'), ('_6', '_64'), ('_5', '_39'), ('_4', '_38'), ('_3', '_36'), ('_2', '_35'), ('_1', '_32'), ('_17', '_114'), ('_16', '_53'), ('_15', '_52'), ('_14', '_73'), ('_13', '_51'), ('_12', '_78'), ('_11', '_136'), ('_10', '_135'), ('_19', '_31'), ('_18', '_77'), ('_210', '_71'), ('_211', '_72'), ('_212', '_69'), ('_213', '_40'), ('_214', '_51'), ('_215', '_31'), ('_216', '_75'), ('_217', '_73'), ('_218', '_74'), ('_219', '_76'), ('_353', '_96'), ('_352', '_62'), ('_355', '_115'), ('_354', '_37'), ('_357', '_131'), ('_356', '_126'), ('_328', '_125'), ('_329', '_118'), ('_324', '_122'), ('_325', '_83'), ('_326', '_123'), ('_327', '_37'), ('_320', '_121'), ('_321', '_41'), ('_322', '_78'), ('_323', '_124'), ('_289', '_46'), ('_288', '_76'), ('_283', '_51'), ('_282', '_53'), ('_280', '_106'), ('_287', '_107'), ('_286', '_95'), ('_285', '_108'), ('_284', '_100'), ('_358', '_58'), ('_131', '_339'), ('_131', '_340'), ('_131', '_301'), ('_131', '_314'), ('_131', '_330'), ('_131', '_341'), ('_131', '_342'), ('_131', '_343'), ('_131', '_320'), ('_131', '_344'), ('_131', '_345'), ('_131', '_346'), ('_131', '_347'), ('_131', '_326'), ('_131', '_348'), ('_131', '_178'), ('_131', '_191'), ('_131', '_349'), ('_131', '_249'), ('_131', '_350'), ('_131', '_155'), ('_131', '_327'), ('_131', '_338'), ('_131', '_351'), ('_131', '_352'), ('_130', '_263'), ('_130', '_213'), ('_130', '_336'), ('_130', '_320'), ('_130', '_191'), ('_130', '_315'), ('_130', '_249'), ('_130', '_155'), ('_130', '_337'), ('_130', '_338'), ('_133', '_149'), ('_132', '_2'), ('_132', '_353'), ('_132', '_155'), ('_132', '_354'), ('_135', '_154'), ('_135', '_148'), ('_134', '_355'), ('_134', '_301'), ('_134', '_356'), ('_134', '_357'), ('_134', '_2'), ('_134', '_358'), ('_134', '_359'), ('_134', '_360'), ('_134', '_230'), ('_134', '_361'), ('_134', '_362'), ('_134', '_193'), ('_134', '_363'), ('_134', '_235'), ('_134', '_364'), ('_134', '_159'), ('_134', '_365'), ('_134', '_366'), ('_134', '_167'), ('_134', '_327'), ('_134', '_352'), ('_137', '_223'), ('_136', '_2'), ('_139', '_169'), ('_139', '_368'), ('_139', '_369'), ('_139', '_148'), ('_138', '_367'), ('_48', '_168'), ('_49', '_148'), ('_49', '_169'), ('_40', '_159'), ('_40', '_148'), ('_41', '_160'), ('_41', '_161'), ('_41', '_149'), ('_41', '_148'), ('_42', '_149'), ('_43', '_149'), ('_44', '_149'), ('_45', '_162'), ('_45', '_163'), ('_46', '_164'), ('_46', '_165'), ('_47', '_166'), ('_47', '_149'), ('_47', '_167'), ('_144', '_149'), ('_144', '_201'), ('_144', '_371'), ('_144', '_148'), ('_145', '_372'), ('_145', '_149'), ('_145', '_373'), ('_146', '_149'), ('_146', '_374'), ('_140', '_148'), ('_140', '_169'), ('_141', '_169'), ('_141', '_370'), ('_141', '_148'), ('_142', '_148'), ('_143', '_149'), ('_143', '_148'), ('_148', '_30'), ('_149', '_31'), ('_360', '_132'), ('_361', '_83'), ('_362', '_123'), ('_363', '_52'), ('_364', '_114'), ('_365', '_133'), ('_366', '_93'), ('_367', '_31'), ('_368', '_137'), ('_369', '_138'), ('_249', '_77'), ('_248', '_88'), ('_247', '_89'), ('_246', '_90'), ('_245', '_42'), ('_244', '_49'), ('_243', '_85'), ('_242', '_87'), ('_241', '_31'), ('_240', '_86'), ('_108', '_283'), ('_108', '_284'), ('_108', '_149'), ('_108', '_245'), ('_109', '_285'), ('_109', '_286'), ('_109', '_282'), ('_109', '_241'), ('_109', '_287'), ('_109', '_288'), ('_100', '_158'), ('_100', '_245'), ('_101', '_178'), ('_101', '_209'), ('_102', '_149'), ('_103', '_263'), ('_103', '_264'), ('_103', '_265'), ('_103', '_266'), ('_103', '_166'), ('_103', '_178'), ('_103', '_267'), ('_103', '_268'), ('_103', '_209'), ('_103', '_269'), ('_103', '_148'), ('_104', '_149'), ('_105', '_270'), ('_105', '_271'), ('_105', '_272'), ('_105', '_149'), ('_105', '_273'), ('_106', '_274'), ('_106', '_178'), ('_106', '_191'), ('_106', '_275'), ('_106', '_262'), ('_107', '_276'), ('_107', '_277'), ('_107', '_278'), ('_107', '_221'), ('_107', '_279'), ('_107', '_280'), ('_107', '_281'), ('_107', '_255'), ('_107', '_178'), ('_107', '_282'), ('_107', '_149'), ('_203', '_66'), ('_202', '_65'), ('_201', '_54'), ('_200', '_62'), ('_207', '_68'), ('_206', '_31'), ('_205', '_67'), ('_204', '_31'), ('_209', '_31'), ('_208', '_70'), ('_339', '_82'), ('_338', '_128'), ('_337', '_105'), ('_336', '_129'), ('_335', '_92'), ('_334', '_35'), ('_333', '_49'), ('_332', '_78'), ('_331', '_126'), ('_330', '_101'), ('_79', '_223'), ('_78', '_220'), ('_78', '_185'), ('_78', '_221'), ('_78', '_191'), ('_78', '_222'), ('_78', '_169'), ('_78', '_171'), ('_78', '_198'), ('_75', '_215'), ('_74', '_213'), ('_74', '_209'), ('_74', '_214'), ('_74', '_171'), ('_74', '_148'), ('_77', '_216'), ('_77', '_178'), ('_77', '_217'), ('_77', '_215'), ('_77', '_218'), ('_77', '_219'), ('_76', '_215'), ('_71', '_149'), ('_70', '_149'), ('_73', '_166'), ('_73', '_178'), ('_73', '_192'), ('_73', '_190'), ('_73', '_211'), ('_73', '_212'), ('_72', '_208'), ('_72', '_209'), ('_72', '_210'), ('_157', '_41'), ('_156', '_37'), ('_155', '_31'), ('_154', '_35'), ('_153', '_38'), ('_152', '_34'), ('_151', '_33'), ('_159', '_31'), ('_158', '_31'), ('_373', '_142'), ('_372', '_144'), ('_371', '_143'), ('_370', '_140'), ('_374', '_118'), ('_278', '_35'), ('_279', '_78'), ('_272', '_104'), ('_273', '_71'), ('_270', '_98'), ('_271', '_70'), ('_274', '_99'), ('_275', '_53'), ('_180', '_47'), ('_181', '_31'), ('_182', '_55'), ('_183', '_57'), ('_184', '_55'), ('_185', '_35'), ('_186', '_40'), ('_187', '_31'), ('_188', '_56'), ('_189', '_60'), ('_119', '_164'), ('_118', '_148'), ('_113', '_193'), ('_113', '_300'), ('_113', '_241'), ('_113', '_191'), ('_113', '_299'), ('_113', '_249'), ('_112', '_238'), ('_112', '_292'), ('_112', '_281'), ('_112', '_293'), ('_112', '_178'), ('_112', '_267'), ('_112', '_192'), ('_112', '_294'), ('_112', '_249'), ('_112', '_295'), ('_112', '_181'), ('_112', '_296'), ('_112', '_297'), ('_112', '_298'), ('_112', '_148'), ('_111', '_289'), ('_111', '_178'), ('_111', '_267'), ('_111', '_242'), ('_111', '_181'), ('_111', '_290'), ('_111', '_291'), ('_110', '_193'), ('_110', '_249'), ('_110', '_241'), ('_117', '_245'), ('_117', '_159'), ('_116', '_311'), ('_116', '_148'), ('_115', '_159'), ('_114', '_301'), ('_114', '_302'), ('_114', '_280'), ('_114', '_178'), ('_114', '_193'), ('_114', '_191'), ('_114', '_303'), ('_114', '_294'), ('_114', '_235'), ('_114', '_304'), ('_114', '_249'), ('_114', '_305'), ('_114', '_306'), ('_114', '_307'), ('_114', '_181'), ('_114', '_296'), ('_114', '_308'), ('_114', '_309'), ('_114', '_310'), ('_39', '_158'), ('_39', '_148'), ('_39', '_154'), ('_38', '_156'), ('_38', '_157'), ('_38', '_148'), ('_38', '_154'), ('_31', '_148'), ('_33', '_150'), ('_32', '_149'), ('_35', '_148'), ('_35', '_151'), ('_35', '_152'), ('_35', '_150'), ('_34', '_148'), ('_37', '_155'), ('_36', '_153'), ('_36', '_154'), ('_36', '_148'), ('_359', '_64'), ('_238', '_81'), ('_239', '_84'), ('_236', '_128'), ('_237', '_62'), ('_235', '_53'), ('_232', '_80'), ('_233', '_78'), ('_230', '_41'), ('_231', '_64'), ('_351', '_125'), ('_350', '_85'), ('_308', '_107'), ('_309', '_93'), ('_302', '_88'), ('_303', '_112'), ('_300', '_62'), ('_301', '_103'), ('_306', '_113'), ('_307', '_96'), ('_304', '_110'), ('_305', '_94'), ('_162', '_31'), ('_163', '_44'), ('_160', '_40'), ('_161', '_35'), ('_166', '_40'), ('_167', '_42'), ('_164', '_31'), ('_165', '_45'), ('_168', '_31'), ('_169', '_31')])]}",
+    "failure_description": null,
+    "package_orderers": null,
+    "package_paths": [
+        "%PXO_CI_BUILDS%\\app\\int",
+        "%PXO_CI_BUILDS%\\app\\ext",
+        "C:\\Users\\srv-gitlab-ci\\packages",
+        "C:\\int",
+        "C:\\ext",
+        "\\\\str-px\\o\\app\\int",
+        "\\\\str-px\\o\\app\\ext"
+    ],
+    "platform": "windows",
+    "rez_path": "\\\\str-px\\o\\app\\ext\\rez\\2.18.0-pxo.5\\platform-windows\\rez",
+    "status": "solved",
+    "from_cache": false,
+    "timestamp": 1771239560,
+    "caching": false,
+    "load_time": 0.0,
+    "os": "windows-10.0",
+    "patch_locks": {}
+}
